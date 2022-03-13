@@ -1,8 +1,9 @@
 # Welcome to my Social Computing Capstone project blog! 
 
-I spent this quarter working on Wellbot, a Discord bot for facilitating peer mental health and emotional support.
 
 ## Overview
+I spent this quarter working on Wellbot, a Discord bot for facilitating peer mental health and emotional support.
+
 Here's the quick rundown:
 ### Problem
 - Struggling with mental health issues can be lonely
