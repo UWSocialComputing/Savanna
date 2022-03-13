@@ -1,3 +1,6 @@
+![banner](/img/banner.jpg)
+
+
 # Welcome to my Social Computing Capstone project blog! 
 
 
