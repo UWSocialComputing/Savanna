@@ -17,11 +17,29 @@ I'm aware that there are many Discord bots out there and I don't claim that my b
 - Others can offer help to these requests
 - Once help is offered to a request, Wellbot offers a safe and private space for the requester and offerer to chat
 
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/index_1.png?raw=true" alt="banner"/></div>
+
+_(Above) People can indicate that they want mental health support by sending a request to the bot_
+
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/index_2.png?raw=true" alt="banner"/></div>
+
+_(Above) Requests are anonymously posted via the bot_
+
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/index_3.png?raw=true" alt="banner"/></div>
+
+_(Above) Once someone offers help on a request a private channel is created_
+
 For a more detailed overview, you can watch this video. For even more detail, check out my blog posts below that!
 
 <iframe style="text-align:center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/1eHkQioB8i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To play with Wellbot for yourself, check out my Github: [https://github.com/UWSocialComputing/Savanna-Project](https://github.com/UWSocialComputing/Savanna-Project) Here you can find full instructions on how to get Wellbot onto your server!
+
+### Process
+Here's a rough breakdown for the process and how long I spent on each step.
+
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/process.png?raw=true" alt="diagram showing steps of the design process and a chart with which weeks were spent on which steps"/></div>
+
 
 ### About Me
 My name is Savanna and I'm a Masters student studying Computer Science at the University of Washington. My interests are in social computing, security & privacy, human-computer interaction, and mental health.
