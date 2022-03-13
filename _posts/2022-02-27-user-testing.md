@@ -27,15 +27,15 @@ For my medium-fidelity prototype I implemented the following features, modified 
 1. I tried connecting it to my GitHub repo for this class, but it wasn’t working for some reason. I didn’t make GitHub issues for this, I just kept track of my todos in a txt file. Since I took longer to do this assignment, I ended up implementing all of the functionalities I was planning to implement (from the scaled-down version of my project). 
 ## Screenshots:
 
-![Screenshot from Discord of the bot sending a confirmation after the user has sent a request for help](/img/G6_1.jpg)
+![Screenshot from Discord of the bot sending a confirmation after the user has sent a request for help](img/G6_1.jpg)
 
 _Screenshot of results from a user changing their availability status, and the user sending a request for support. The bot responds to the request with a link to crisis line information and a preview of what the user’s message was._
 
-![Screenshot from Discord of the message the bot sent on behalf of the user](/img/G6_2.jpg)
+![Screenshot from Discord of the message the bot sent on behalf of the user](img/G6_2.jpg)
 
 _Screenshot of the #help channel, a channel where only the bot can post and where requests for support appear. Since the request sent was urgent, @available was pinged. A request for support message has two buttons, one for the person who requested support to remove the message if they no longer need help, and the other for someone else to offer support. In both cases, once the button is clicked, the message disappears, so that people can easily see who is still looking for help._
 
-![Screenshot from Discord of a 1 on 1 channel created by the bot](/img/G6_3.jpg)
+![Screenshot from Discord of a 1 on 1 channel created by the bot](img/G6_3.jpg)
 
 _Screenshot of a 1-on-1 support channel, which gets created when someone clicks “offer help” under a request for support. Both the requester and offerer are pinged and the bot posts a link to conversation guidelines as well as a button for deleting the channel._
 ## Findings:
