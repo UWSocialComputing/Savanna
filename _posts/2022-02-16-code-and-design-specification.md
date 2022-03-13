@@ -57,45 +57,35 @@ Architecture: Bot <--> database
 The bot’s code would probably have two main classes: the bot itself and a class for a User. 
 ### Bot class
 Fields
-- List<User> ambient		/Ambient list (list of Users looking for support)
-- List<User> available 	/List of Users in “available” role
-- List<User> offering		/List of Users in “offering” role
-- List<User> do_not_disturb /List of Users in “do not disturb” role
-- const List<String> tags	/List of Tags
-- List<User> all_users	/List of all Users
+- `List<User> ambient`		Ambient list (list of Users looking for support)
+- `List<User> available` 	List of Users in “available” role
+- `List<User> offering`		List of Users in “offering” role
+- `List<User> do_not_disturb` List of Users in “do not disturb” role
+- `const List<String> tags`	List of Tags
+- `List<User> all_users`	List of all Users
 Methods
-- create_priv_channel(User u1, User, u2)
-  - Creates private channel between two Users
-- structure_conv()
-  - Bot provides scaffolding/prompts for support
-- offer(User u, String anon_id)
-  - Relay to the anonymous person that someone is offering to help
-- lookup(String username)
-  - Returns the profile tags for a given User
-- all_tags()
-  - Returns the list of tags to choose from
+- `create_priv_channel(User u1, User, u2)`  Creates private channel between two Users
+- `structure_conv()`  Bot provides scaffolding/prompts for support
+- `offer(User u, String anon_id)` Relay to the anonymous person that someone is offering to help
+- `lookup(String username)` Returns the profile tags for a given User
+- `all_tags()`  Returns the list of tags to choose from
 ### User class
 Fields
-- String username		/Discord username
-- Bool offering			/Whether User is in offering role
-- Bool available		/Whether User is in available role
-- Bool do_not_disturb		/Whether User is in do not disturb role
-- String anon_id		/User’s anonymous id
-- List<String> profile		/List of topics User is comfortable supporting 
-- Bool looking			/Whether User is looking for support
-- Bool urgent			/Whether to send a ping
-- String support_type		/Mutual or one-sided support
-- List<String> tags		/List of Tags User wants help with
-- String message		/Message User wants sent out to get help
+- `String username`		Discord username
+- `Bool offering`			Whether User is in offering role
+- `Bool available`		Whether User is in available role
+- `Bool do_not_disturb`		Whether User is in do not disturb role
+- `String anon_id`		User’s anonymous id
+- `List<String> profile`		List of topics User is comfortable supporting 
+- `Bool looking`			Whether User is looking for support
+- `Bool urgent`			Whether to send a ping
+- `String support_type`		Mutual or one-sided support
+- `List<String> tags`		List of Tags User wants help with
+- `String message`		Message User wants sent out to get help
 Methods
-- new_anon_id()
-  - Assigns new anon_id
-- update _role(String role)
-  - Add or remove User from the specified role
-- clear_status()
-  - Resets status to defaults and removes User from ambient list
-- update_profile(String updates)
-  - Adds/removes tags from the User’s profile
-- update_status(Bool urgent, String support_type, List<String> tags, String message)
-  - Updates User’s status, adds them to ambient, pings if urgent, relays their message, displays their tags
+- `new_anon_id()`   Assigns new anon_id
+- `update _role(String role)`   Add or remove User from the specified role
+- `clear_status()`    Resets status to defaults and removes User from ambient list
+- `update_profile(String updates)`    Adds/removes tags from the User’s profile
+- `update_status(Bool urgent, String support_type, List<String> tags, String message)`    Updates User’s status, adds them to ambient, pings if urgent, relays their message, displays their tags
 The bot’s code outline, plus an external database, as well as the scaffolding that comes built in with Discord and whatever skeleton code they have for making a bot should be enough to cover the requirements described above. In theory, the requirements above could be accomplished without a bot, and just with a server alone, however, the bot will be able to help automate and provide another layer of anonymity without requiring users to switch to a throwaway discord account or something.
