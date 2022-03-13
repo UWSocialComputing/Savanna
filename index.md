@@ -26,3 +26,5 @@ My name is Savanna and I'm a Masters student studying Computer Science at the Un
 To play with Wellbot for yourself, check out my Github: [https://github.com/UWSocialComputing/Savanna-Project](https://github.com/UWSocialComputing/Savanna-Project) Here you can find full instructions on how to get Wellbot onto your server!
 
 Made with :heart: by Savanna
+<p>&#128512;</p>
+
