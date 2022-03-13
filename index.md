@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/banner.png?raw=true"/></div>
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/banner.png?raw=true" alt="banner"/></div>
 
 ## Overview
 I spent this quarter working on Wellbot, a Discord bot for facilitating peer mental health and emotional support.
