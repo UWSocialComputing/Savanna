@@ -1,4 +1,4 @@
-![banner](/img/banner.jpg)
+![banner](_posts/img/banner.jpg)
 
 
 # Welcome to my Social Computing Capstone project blog! 
