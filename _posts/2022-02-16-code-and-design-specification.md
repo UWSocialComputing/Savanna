@@ -10,6 +10,7 @@
 - Clear their statuses once they no longer need help
 - Update status to indicate they want support, which can trigger a ping to certain other Users or show up ambiently in a channel called Ambient that shows the statuses of Users currently looking for support
 - See the list of other Users currently seeking help, and what is upsetting them (Tags)
+
 #### Secondary
 - Users can offer to help others
 - Users can create a private channel and invite the person they’d like to help to it
@@ -32,6 +33,7 @@
   - (may make roles more granular at the Tag level, not sure yet)
   - If non urgent, post in Ambient channel
 - Relay message and tags when someone asks for help in Ambient channel
+
 #### Secondary
 - Relay an offer to help to the person asking for it to Ambient
 - Make new private channel for 1:1 conversations
@@ -46,6 +48,7 @@
 - The bot is friendly and uses calming language
 - Statuses in the Ambient channel are displayed in an informative way that is easy to read
 - Bot displays available commands in a list that is short and not overwhelming
+
 #### Secondary
 - User profiles are easily readable and editable
 
@@ -67,6 +70,7 @@ The bot’s code would probably have two main classes: the bot itself and a clas
 - `List<User> do_not_disturb` List of Users in “do not disturb” role
 - `const List<String> tags`	List of Tags
 - `List<User> all_users`	List of all Users
+
 #### Methods
 - `create_priv_channel(User u1, User, u2)`  Creates private channel between two Users
 - `structure_conv()`  Bot provides scaffolding/prompts for support
@@ -87,6 +91,7 @@ The bot’s code would probably have two main classes: the bot itself and a clas
 - `String support_type`		Mutual or one-sided support
 - `List<String> tags`		List of Tags User wants help with
 - `String message`		Message User wants sent out to get help
+
 #### Methods
 - `new_anon_id()`   Assigns new anon_id
 - `update _role(String role)`   Add or remove User from the specified role
