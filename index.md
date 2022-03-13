@@ -21,7 +21,7 @@ For a more detailed overview, you can watch the video below. For even more detai
 
 My name is Savanna and I'm a Masters student studying Computer Science at the University of Washington. My interests are in social computing, security & privacy, human-computer interaction, and mental health.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1eHkQioB8i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="text-align:center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/1eHkQioB8i4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To play with Wellbot for yourself, check out my Github: [https://github.com/UWSocialComputing/Savanna-Project](https://github.com/UWSocialComputing/Savanna-Project) Here you can find full instructions on how to get Wellbot onto your server!
 
