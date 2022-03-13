@@ -1,5 +1,4 @@
-![banner](_posts/img/banner.png)
-
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/banner.png?raw=true"/></div>
 
 # Welcome to my Social Computing Capstone project blog! 
 
