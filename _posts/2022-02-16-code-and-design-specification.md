@@ -48,9 +48,9 @@ Secondary
 - User profiles are easily readable and editable
 ## Storyboard
 
-![storyboard of a person seeking help using the bot](img/G4_1.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G4_1.png?raw=true" alt="storyboard of a person seeking help using the bot"/></div>
 
-![storyboard of a person providing help using the bot](img/G4_2.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G4_2.png?raw=true" alt="storyboard of a person providing help using the bot"/></div>
 
 ## Architecture & Data
 I haven’t made a Discord bot before, but I believe all I’ll need is the bot’s code and a database. The bot would update the database as well as read from it.
