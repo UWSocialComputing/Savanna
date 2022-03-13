@@ -26,6 +26,6 @@ To play with Wellbot for yourself, check out my Github: [https://github.com/UWSo
 ### About Me
 My name is Savanna and I'm a Masters student studying Computer Science at the University of Washington. My interests are in social computing, security & privacy, human-computer interaction, and mental health.
 
-<p>Made with &#10084; by Savanna</p> 
+<p>Hope you enjoy learning about Wellbot! &#10084; &#129302;</p> 
 
 
