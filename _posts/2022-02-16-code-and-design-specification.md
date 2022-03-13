@@ -47,9 +47,10 @@ Primary
 Secondary
 - User profiles are easily readable and editable
 ## Storyboard
-![storyboard of a person seeking help using the bot](/img/G4_1.jpg)
-![storyboard of a person providing help using the bot](/img/G4_2.jpg)
 
+![storyboard of a person seeking help using the bot](/img/G4_1.jpg)
+
+![storyboard of a person providing help using the bot](/img/G4_2.jpg)
 
 ## Architecture & Data
 I haven’t made a Discord bot before, but I believe all I’ll need is the bot’s code and a database. The bot would update the database as well as read from it.
