@@ -4,7 +4,7 @@ The system I’ve made a low-fidelity prototype for is an app for making it easi
 
 The first draft of the status indicator goes across two main dimensions: mood and availability. Here is a diagram showing them:
 
-![diagram showing faces of varying emotions, with an arrow labeled "A" going from a happy to a sad face and an arrow labeled "B going between two sad faces"](img/G3_1.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G3_1.png?raw=true" alt="diagram showing faces of varying emotions, with an arrow labeled A going from a happy to a sad face and an arrow labeled B going between two sad faces"/></div>
 
 The goal of this system is to facilitate more of relationship A and relationship B. In relationship A, people who are feeling okay and are willing to talk and people who are experiencing mental health issues and are wanting to talk can support each other. In relationship B, people who are experiencing mental health issues and are wanting to talk can find and confide in each other. A third dimension that can be adjusted is whether to share one’s mental health status with friends, strangers, both, or neither.
 
@@ -19,23 +19,24 @@ Here are some images of the important parts of the prototype.
 
 First is the widget. On this screen, the user can pick their mood by tapping one of the five faces. They can add tags by entering comma-separated words into the text entry box. They can indicate whether they want to talk to someone or would rather be left alone, or are somewhere in between by tapping the green, yellow, or red circles. They can tap the toggles to choose whether they want to make their new status visible to friends and whether they want to make it visible to strangers. The choices are automatically saved. The bottom section of this screen is where users can see how many of their friends are distressed/very distressed and wanting to talk.
 
-![screenshot of a protytype showing an interface for updating status](img/G3_2.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G3_2.png?raw=true" alt="screenshot of a protytype showing an interface for updating status"/></div>
 
 The next screen is the “public” mode of finding someone to talk to. Here users see a list of people who have indicated they are wanting/willing to talk to someone, ordered by when their status was last updated. Users can see each person’s mood, their anonymous id (copied from Google’s way of anonymizing users), the last update of their status, and the tags the person has entered in their status. Users can also browse the people who indicated they kind of don’t want to talk, but this is collapsed by default. At the top of the screen users can choose to see all other strangers who have made their statuses publicly visible, or can filter and find people with the same mood, those who are “looking”, and those who are “offering”. The terms “looking” and “offering” are copied from a subreddit and Discord community called r/KindVoice that I have been taking inspiration from for this project. In this case, those who are distressed or very distressed and who are wanting to talk to someone would be considered “looking”, and those who are feeling better than neutral and who are willing to talk would be considered “offering”. By clicking on an avatar users can view a stranger’s profile and message them.
 
-![screenshot of a protytype showing an interface for viewing the statuses of strangers](img/G3_3.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G3_3.png?raw=true" alt="screenshot of a protytype showing an interface for viewing the statuses of strangers"/></div>
 
 This screen is the view of a stranger’s profile. Here a user can see the same information about someone as the previous page, with the addition of seeing any profile information someone has added, such as topics they’re experienced in or are wanting/willing to talk about. At the bottom of the screen users can send a message to reach out to this person if they want to ask for help from this person or offer help to this person.
 
-![screenshot of a protytype showing an interface for viewing a stranger's profile](img/G3_4.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G3_4.png?raw=true" alt="screenshot of a protytype showing an interface for viewing a stranger's profile"/></div>
+
 
 This screen is the “friends” view of finding someone to talk to. Here users can see their friends who are wanting or willing to talk, again with the yellow “kind of don’t want to talk” and the red “leave me alone” statuses collapsed by default. In this view users can only see their friends’ mood and willingness to talk. Users can click on any of their friends to get to their profile screen.
 
-![screenshot of a protytype showing an interface for viewing friends' statuses](img/G3_5.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G3_5.png?raw=true" alt="screenshot of a protytype showing an interface for viewing friends' statuses"/></div>
 
 A friend’s profile screen is pretty simple and only shows their mood, willingness to talk, name, and preferred contact methods. Since they’re friends already, the user would contact this person by just tapping one of the preferred contact methods, which would open up the respective communication platform.
 
-![screenshot of a protytype showing an interface for seeing a specific friend's contact information](img/G3_6.png)
+<div style="text-align:center"><img src="https://github.com/UWSocialComputing/Savanna/blob/main/_posts/img/G3_6.png?raw=true" alt="screenshot of a protytype showing an interface for seeing a specific friend's contact information"/></div>
 
 ## Findings from the Wizard of Oz testing
 
