@@ -15,31 +15,31 @@ The bot’s features follow one main flow. Person A feels in need of some suppor
 
 ![Screenshot from Discord prototype](img/G7_1.png)
 
-_Person A putting in a request for support via slash command_
+_(Above) Person A putting in a request for support via slash command_
 
 ![Screenshot from Discord prototype](img/G7_3.png)
 
-_Person A is able to preview their message and confirm it is okay before sending it to #help_
+_(Above) Person A is able to preview their message and confirm it is okay before sending it to #help_
 
 ![Screenshot from Discord prototype](img/G7_3.png)
 
-_Person A can see their request for support is now publicly visible in #help, but is anonymous_
+_(Above) Person A can see their request for support is now publicly visible in #help, but is anonymous_
 
 At the same time, Person B may also be feeling sad or they may be feeling fine. They have notifications on for urgent requests for support and get notified when person A’s message appears in #help. They read the message and find that they can support the person behind the message. They click a button to offer their support. The request is no longer considered active, so it gets moved to an archive channel with other past requests. Person A is able to move their request back to #help if they feel like they still need support. 
 
 ![Screenshot from Discord prototype](img/G7_4.png)
 
-_Person B has clicked “offer help”, so the message gets removed from #help_
+_(Above) Person B has clicked “offer help”, so the message gets removed from #help_
 
 ![Screenshot from Discord prototype](img/G7_5.png)
 
-_The message now shows up in #help-archive. If person B tries to move the message back to #help, they see a message telling them only the original requester can move the message back. The same goes for removing a message from #help or #help-archive–only the original requester can do it_
+_(Above) The message now shows up in #help-archive. If person B tries to move the message back to #help, they see a message telling them only the original requester can move the message back. The same goes for removing a message from #help or #help-archive–only the original requester can do it_
 
 Once person B clicks the button, the bot creates a private space where person A and person B can have a conversation within the server, where moderators have access to the channel and neither person has to open their DMs. The bot also can be configured to provide guidance on the conversation. Once the conversation is over, the bot can delete the chat so private information isn’t lying around. 
 
 ![Screenshot from Discord prototype](img/G7_6.png)
 
-_Person A and person B are connected in a private chat within the server. The bot displays the original request message, a link to some conversation guidelines, and a button for deleting the chat once the conversation is finished_
+_(Above) Person A and person B are connected in a private chat within the server. The bot displays the original request message, a link to some conversation guidelines, and a button for deleting the chat once the conversation is finished_
 
 ## Adjustments
 
